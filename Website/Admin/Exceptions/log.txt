@@ -1,0 +1,60 @@
+19/05/2020 21:32:58 - Falha ao enviar email.
+
+----------------------------------------------------------
+
+19/05/2020 21:34:43 - Falha ao enviar email.
+
+----------------------------------------------------------
+
+26/05/2020 19:45:03 - Falha ao enviar email.
+----------------------------------------------------------
+26/05/2020 20:09:32 - Falha ao enviar email.
+----------------------------------------------------------
+26/05/2020 21:35:27 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+26/05/2020 21:36:15 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+26/05/2020 21:36:52 - Valor não pode ser nulo.
+Nome do parâmetro: hostNameOrAddress
+----------------------------------------------------------
+26/05/2020 21:38:22 - Valor não pode ser nulo.
+Nome do parâmetro: hostNameOrAddress
+----------------------------------------------------------
+26/05/2020 21:42:58 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+26/05/2020 21:44:37 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+26/05/2020 21:46:52 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+02/06/2020 19:05:45 - Referência de objeto não definida para uma instância de um objeto.
+----------------------------------------------------------
+02/06/2020 19:05:46 - Referência de objeto não definida para uma instância de um objeto.
+----------------------------------------------------------
+02/06/2020 19:05:51 - Referência de objeto não definida para uma instância de um objeto.
+----------------------------------------------------------
+02/06/2020 19:06:07 - Referência de objeto não definida para uma instância de um objeto.
+----------------------------------------------------------
+02/06/2020 21:30:16 - Erro de sintaxe (operador faltando) na expressão de consulta ''Lab01-Comp02,'187.45.195.176',';çooj jopooio');'.
+----------------------------------------------------------
+16/06/2020 21:32:42 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+16/06/2020 22:00:14 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+16/06/2020 22:03:05 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+16/06/2020 22:05:35 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+16/06/2020 22:07:08 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+16/06/2020 22:10:13 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+16/06/2020 22:12:41 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+23/06/2020 19:31:36 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+23/06/2020 19:39:06 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+30/06/2020 19:18:30 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------
+30/06/2020 19:19:14 - Ocorreu uma exceção durante uma solicitação Ping.
+----------------------------------------------------------

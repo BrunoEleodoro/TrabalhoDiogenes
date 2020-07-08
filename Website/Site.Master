@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Website.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+			<title></title>
+			<asp:ContentPlaceHolder ID="head" runat="server">
+			</asp:ContentPlaceHolder>
+			
+			<link href="StyleSheet.css" rel="stylesheet" />
+			
+			<!-- LIGA O ARQUIVO DE ESTILO DO FLEXSLIDER -->
+			<link href="js/flexslider.css" rel="stylesheet" />
+			<!-- LIGA OS ARQUIVOS JAVASCRIPT PARA O SLIDER -->
+			<script src="js/jquery-1.7.2.min.js"></script>
+			<script src="js/flexslider.min.js"></script>
+</head>
+
+<body>
+			<form id="form1" runat="server">
+						<!-- CABEÇALHO -->
+						<div class="cabecalho content-wrapper">
+									<!-- LOGOMARCA -->
+									<div class="logomarca">
+												<asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo_white.png" />
+									</div>
+									<!-- MENU -->
+									<div class="menu" style="color: white !important;">
+												<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">HOME</asp:HyperLink>
+												<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Sobre.aspx">SOBRE NÓS</asp:HyperLink>
+												<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/NossoTime.aspx">NOSSO TIME</asp:HyperLink>
+												<asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Contato.aspx">CONTATO</asp:HyperLink>
+
+												<asp:HyperLink ID="ViewLog" Visible="false" runat="server" NavigateUrl="~/Admin/ViewLog.aspx">LOG</asp:HyperLink>
+												<asp:HyperLink ID="ExecutarPing" Visible="false" runat="server" NavigateUrl="~/Admin/ExecutarPing.aspx">PING</asp:HyperLink>
+												<asp:HyperLink ID="InserirComputadores" Visible="false" runat="server" NavigateUrl="~/Admin/InserirComputadores.aspx">COMPUTADORES</asp:HyperLink>
+												<asp:HyperLink ID="TesteComputadores" Visible="false" runat="server" NavigateUrl="~/Admin/TesteComputadores.aspx">TESTE</asp:HyperLink>
+								
+												<asp:HyperLink ID="Login" runat="server" NavigateUrl="~/Login.aspx">ENTRAR</asp:HyperLink>
+												<asp:HyperLink ID="Logout" runat="server" Visible="false" NavigateUrl="~/Logout.aspx">SAIR</asp:HyperLink>
+
+
+												<asp:HyperLink ID="HyperLink4" runat="server" Target="_blank" NavigateUrl="https://instagram.com/"><img width="20px" src="images/instagram.png" /></asp:HyperLink>
+									</div>
+						</div>
+						<!--Conteudo -->
+						<div class="conteudo">
+									<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+									</asp:ContentPlaceHolder>
+						</div>
+						<!-- Rodapé-->
+						<div class="rodape">
+									<div class="content-wrapper">
+									rodapé
+									</div>
+						</div>
+			</form>
+</body>
+</html>

@@ -1,0 +1,287 @@
+﻿* {
+			-webkit-box-sizing: border-box !important; /* Safari/Chrome */
+			-moz-box-sizing: border-box !important; /* Firefox */
+			box-sizing: border-box !important; /* IE8+/ Opera */
+}
+
+h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			padding: 0;
+}
+
+body {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			text-align: left;
+			line-height: 150%; /* define a altura da linha de texto */
+			color: #333333;
+			background-color: black;
+}
+
+/**************************************** 
+			RECURSOS PARA LAYOUT EM COLUNAS 
+*****************************************/
+
+/* determina a largura máxima da área de conteúdo: Default=1024px */
+.content-wrapper {
+			margin: 0 auto;
+			max-width: 1200px;
+}
+
+/* Linha para criar as colunas */
+.row {
+			display: flex;
+			display: -webkit-flex; /* Safari */
+			flex-wrap: wrap;
+			flex-direction: row;
+}
+
+.col-12 {
+			width: 100%;
+}
+
+.col-11 {
+			width: 91.66666666%;
+}
+
+.col-10 {
+			width: 83.3333333%;
+}
+
+.col-9 {
+			width: 75%;
+}
+
+.col-8 {
+			width: 66.66666667%;
+}
+
+.col-7 {
+			width: 58.33333333%;
+}
+
+.col-6 {
+			width: 50%;
+}
+
+.col-5 {
+			width: 41.66666667%;
+}
+
+.col-4 {
+			width: 33.33333333%;
+}
+
+.col-3 {
+			width: 25%;
+}
+
+.col-2 {
+			width: 16.66666667%;
+}
+
+.col-1 {
+			width: 8.33333333%;
+}
+
+/* TIME */
+.time {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #FFFFFF;
+	box-shadow: 0 0 8px 3px #B8B8B8;
+	position: relative;
+  }
+  
+  .time img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+  }
+  
+  .time i {
+	position: absolute;
+	top: 20px;
+	right: -7px;
+	/* border: 1px solid; */
+	border-radius: 50%;
+	/* padding: 11px; */
+	height: 30px;
+	width: 30px;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	color: cornflowerblue;
+	box-shadow: 0 0 8px 3px #B8B8B8;
+  }
+
+/* CABEÇALHO */
+.cabecalho {
+			height: 81px;
+			border-bottom: 1px solid #a1a1a1;
+			position: relative;
+}
+
+.logomarca {
+			width: 80px;
+			height: 80px;
+			position: absolute;
+			top: 0;
+			left: 0;
+}
+
+			.logomarca img {
+						max-width: 120px;
+						max-height: 100px;
+			}
+
+.menu {
+			height: 30px;
+			position: absolute;
+			bottom: 4px;
+			right: 20px;
+}
+
+			.menu a {
+						color: white;
+						font-size: 14px;
+						margin-left: 4px;
+						margin-right: 4px;
+						padding-bottom: 2px;
+						text-decoration: none;
+						border-bottom: 5px solid transparent;
+			}
+
+						.menu a:hover {
+									color: black;
+									border-bottom: 5px solid black;
+						}
+
+
+/* CONTEÚDO */
+.conteudo {
+			margin: 0px 30px 30px 30px;
+			min-height: 800px;
+}
+
+/* RODAPÉ */
+.rodape {
+			/*border-top: 1px solid #a1a1a1;*/
+			height: 200px;
+			background-color: #dddddd;
+			padding: 40px;
+}
+
+
+.margin-top-60px {
+			margin-top: 60px;
+}
+
+.box-padding {
+			padding: 30px;
+			/*overflow:hidden;*/
+}
+
+			.box-padding img {
+						max-width: 100%;
+			}
+
+.box-border {
+			border: 1px solid #c0c0c0;
+			border-radius: 4px;
+}
+
+.center {
+			text-align: center;
+}
+
+
+/***************************************/
+/* ESTILO DOS CONTROLES DE FORMULÁRIO  */
+/***************************************/
+
+label{
+			display:block;
+			max-width:100%;
+			margin-top:20px;
+			text-transform:uppercase;
+			font-size:12px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+			/* ref:https://stackoverflow.com/questions/1377719/padding-within-inputs-breaks-width-100 */
+			border: 1px solid;
+			border-color: #c0c0c0;
+			border-radius: 4px;
+			background: rgba(255, 255, 255, 0.8);
+			color: #222;
+			font-size:16px;
+			display: block;
+			padding: 10px;
+			width: 100%;
+			resize: none;
+}
+
+select {
+			/* ref:https://stackoverflow.com/questions/1377719/padding-within-inputs-breaks-width-100 */
+			border: 1px solid;
+			border-color: #c0c0c0;
+			border-radius: 4px;
+			background: rgba(255, 255, 255, 0.8);
+			color: #222;
+			font-size: 16px;
+			display: block;
+			padding: 10px;
+			resize: none;
+			box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+			color: #222;
+			font-size: 1em;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+			border: 1px solid;
+			border-color: #c0c0c0;
+			border-radius: 4px;
+			color: #222;
+			background-color: #e7e7e7;
+			font-size: 1em;
+			font-weight: 300;
+			padding: 6px 20px;
+}
+
+			input[type="submit"]:hover,
+			input[type="button"]:hover,
+			button:hover {
+						background-color: #c3c3c3;
+						color: #222;
+			}
+
+			input[type="submit"]:active,
+			input[type="button"]:active,
+			button:active {
+						background-color: #bbbbbb;
+						color: #222;
+			}
+
+
+
+
+
+
+
+
+
+
+
